@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>Panchami's Component Library</h1>
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    
+    <p>I will be using all these components in my <strong>portfolio, projects and blogs.</strong></p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading h1</h1>
+    <h2>This is the second biggest heading h2</h2>
+    <p>This is normal text and it will have a <strong>bold</strong> text.</p>
+    <small>This is relatively smaller text.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+    <h3>@fluid container</h3>
+    <div class="container">This is going to be a fluid container. It will go full width of the page with some margin. </div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and center content.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a href="/">Primary Link</a>
+    <a href="/">Secondary Link</a>
+        
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>We are going to remove the bullets in the unordered list using CSS.</p>
+    <ul class="list-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+
+    <h3>inline lists</h3>
+    <p>We are going to create a list which will take columns instead of going in a new row. </p>
+    <ul class="list-non-bullets">
+        <li class="list-item-inline">item one</li>
+        <li class="list-item-inline">item two</li>
+        <li class="list-item-inline">item three</li>
+    </ul>
+
+    <h3>reverse ordered lists</h3>
+    <p>Counting will be in reverse order for this list</p>
+
+    <ol reversed>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <p>Navigation is used on top of the page and is used to get to different pages</p>
+
+    <nav class="navigation container">
+        <div class="nav-brand">theBrandName</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">blogs</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero" >
+        <img class="hero-img" src="/images/img-portfolio.svg" />
+        <h1 class="hero-heading">adarsh balika the <span class="heading-inverted">Web Developer</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This is a paragraph</p>
+            <a class="link link-primary" href="/">Link one</a>
+        </div>
+    </section>
+    
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off-white section</h1>
+            <p>This is a paragraph</p>
+            <a class="link link-secondary" href="/">Link Two</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer container">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">socialOne</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialTwo</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialThree</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>

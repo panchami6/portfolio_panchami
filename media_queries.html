@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog | Responsive Website</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <nav class="navigation container">
+        <div class="nav-brand">DEVPANCHAMI</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+            
+        </ul>
+    </nav> 
+
+    <header class="heading">
+        <h1>How to make your website responsive?</h1>
+        <small class="heading-colour">Date: 27th Nov 2020</small>
+        <img class="image" src="/images/mediaQueryimg.jpg" />
+    </header>
+    <div class="container-center">
+        <p>Media queries is a feature of CSS 3 allowing content rendering to adapt to different conditions such as screen resolution (e.g. mobile and desktop screen size).</p>
+
+        <h2>Usage</h2>
+        <p>A media query consists of a media type and one or more expressions, involving media features, which resolve to either true or false. The result of the query is true if the media type specified in the media query matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules. Media queries use the @media CSS "at-rule".</p>
+
+        <p>Example: <br> @media screen and (min-width: 480px) {
+            <br>body {
+              <br>background-color: lightgreen;
+            <br>}
+          <br>}</p>
+
+        <h2>Media types</h2>
+        <p>Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type will be implied. </p>
+
+        <ul>
+            <li>
+                all: Suitable for all devices.
+            </li>
+            <li>
+                print: Intended for paged material and documents viewed on a screen in print preview mode.
+            </li>
+            <li>
+                screen: Intended primarily for screens.
+            </li>
+            <li>
+                speech: Intended for speech synthesizers.
+            </li>
+        </ul>
+
+        <h2>Media features</h2>
+        <p>Media features describe specific characteristics of the user agent, output device, or environment. Media feature expressions test for their presence or value, and are entirely optional. Each media feature expression must be surrounded by parentheses.</p>
+        <p><strong>Some of the examples are:</strong></p>
+        <p>any-hover, any-pointer, aspect-ratio, color, color-index, display-mode, grid, hover, height.</p>
+
+        
+    </div>
+       
+    <footer class="footer container">
+        <div class="footer-header">You can connect with me on</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/panchami6">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/PThulupule">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/panchami-thulupule-889583170/">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
