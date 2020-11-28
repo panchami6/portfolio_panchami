@@ -152,3 +152,7 @@ body{
 .heading .heading-colour{
     text-align: left;
 }
+
+.text{
+    margin: auto;
+}
