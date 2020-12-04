@@ -135,33 +135,14 @@ body{
 }
 
 .image{
-    width: 450px;
+    width: 100%px;
     height: auto;
     display: block;
     margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
     padding: 1rem 0rem;
 }
-
-@media only screen and (min-width: 600px){
-    .image{
-        width: 600px;
-    }
-}
-
-
-/* ul img{
-    width: 300px;
-    padding: 1rem 0rem;
-    margin: auto;
-    display: block;
-}
-
-ol img{
-    width: 300px;
-    padding: 1rem 0rem;
-    display: block;
-    margin: auto;
-} */
 
 .img-center{
     width: 300px;
