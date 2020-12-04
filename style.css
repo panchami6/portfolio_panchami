@@ -146,10 +146,12 @@ body{
 } */
 
 .img-center{
-    width: 400px;
+    width: 350px;
     padding: 1rem 0rem;
     display: block;
     margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 div h2{
