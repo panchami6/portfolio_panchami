@@ -149,6 +149,7 @@ body{
     padding: 1rem 0rem;
     display: block;
     margin: auto;
+    float: right;
 }
 
 div h2{
