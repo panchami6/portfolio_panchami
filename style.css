@@ -134,22 +134,22 @@ body{
     text-align: center ;
 }
 
-.image{
-    width: 100%px;
+/* .image{
+    width: 100%;
     height: auto;
     display: block;
     margin: auto;
     overflow-x: hidden;
     overflow-y: scroll;
     padding: 1rem 0rem;
-}
+    float: right;
+} */
 
 .img-center{
-    width: 300px;
+    width: 400px;
     padding: 1rem 0rem;
     display: block;
     margin: auto;
-    float: right;
 }
 
 div h2{
